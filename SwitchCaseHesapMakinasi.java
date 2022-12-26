@@ -32,6 +32,8 @@ public class SwitchCaseHesapMakinasi {
 			break;
 		case 4:
 			System.out.println("Bölme isleminin sonucu = " + (float)sayi1 / sayi2);
+		default:
+             		System.out.println("Yanlıs Seçim Yaptınız.Tekrar Deneyiniz.");
 		}
 
 	}
